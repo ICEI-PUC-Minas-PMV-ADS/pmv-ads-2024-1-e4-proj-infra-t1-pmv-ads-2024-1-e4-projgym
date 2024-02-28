@@ -63,14 +63,14 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 ![Processo 2](img/02-bpmn-proc2.png)
 
 ## Indicadores de Desempenho
+Para análise e monitoramento do desempenho do sistema, com o intuito de auxiliar na manutenção da aplicação, os seguintes indicadores foram definidos:
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
-
+| Indicador | Objetivos  | Descrição | Cálculo  | Fonte dos Dados  | Perspectiva |
+| - | - | - | -| - | - |
+| Novos Usuários cadastrados | Monitorar a quantidade de usuários novos no mês para monitorar o crescimento da aplicação e desenvolver melhorias	|Número absoluto de clientes novos |	-	| Tabela de usuários |	Criar estratégia para atrais mais usuários |
+|índice de satisfação |	Medir a qualidade do sistema por meio do usuário| Taxa de reclamação/ relatos de bugs |	Relatos avaliatívos do usuário	| Analíse dos usuários| Identificar possíveis erros ou bugs |
+| Atividade do usuário |	Identificar o nível de atividade do usuários	| Criar estratégias para tornar o sistema útil e atrativo para o usuário |Análise de Tabelas| Tabelas | Número de listas de exercícios criadas	| Analisar os clientes que fizeram listas personalizadas	| Clientes que ultilizam o sistema na sua função principal	| -	| Análise de Dados	| Melhorar funcionalidades |
+| Taxa de evasão do sistema |	Monitorar a quantidade de usuários que encerraram sua conta |	Taxa de exclusão de contas em determinado período |	Soma das compras realizadas pelos usuários |	Tabela de dados	| Melgorar a experiencia do usuário |
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
@@ -123,27 +123,14 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![Diagrama casos drawio](https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/assets/113618051/46a693a5-fdad-4033-a841-ff0a068ed527)
 
 # Matriz de Rastreabilidade
 
+
 A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+![Matriz de rastreabilidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/assets/113618051/bc9a21d7-79b5-4e09-a8c1-481d7fc64c69)
 
 
 # Gerenciamento de Projeto
