@@ -59,23 +59,31 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Um aplicativo facilitador de rotina numa academia é extremamente útil por várias razões:
+
+**Facilidade de Acesso:** 
+- fácil acesso a uma variedade de rotinas de treinamento. Isso é conveniente para os usuários, pois podem acessar o aplicativo qualquer momento, em qualquer lugar, sem precisar carregar papel ou lembrar-se de sequências complexas de exercícios.
+
+ **Planejamento e Organização:** 
+ - Uma lista de exercícios em um aplicativo permite que os usuários planejem e organizem suas rotinas de treinamento de acordo com seus objetivos específicos e disponibilidade de tempo.
+ - Também podendo criar listas personalizadas com base em seus interesses e  nível de condicionamento.
+
+ **Acompanhamento de Progresso:**
+ - Os usuários podem acompanhar facilmente seu progresso ao longo do tempo. Eles podem acessar o histórico diário, registrar o número de repetições e séries realizadas. Isso ajuda na motivação e na manutenção da consistência no treinamento.
+
+ **Guiamento e Instrução:** 
+ - Instruções detalhadas e demonstrações em vídeo para cada exercício. Isso é especialmente útil para iniciantes ou para aqueles que desejam aprender novos movimentos de forma correta e segura.
+ 
+**Adaptação às Necessidades Individuais:** 
+- Com um aplicativo que organiza exercícios, os usuários podem adaptar facilmente suas rotinas de treinamento às suas necessidades individuais, seja para focar em áreas específicas do corpo, melhorar a resistência cardiovascular ou trabalhar em objetivos de condicionamento físico específicos.
+
 
 ### Descrição Geral da Proposta
+O sistema tem como foco oferecer a pessoas com o intuito de realziar atividade física uma maneira intuitiva e automatizada de organizarem seus exercícios, facilitando a sua rotina diária.
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+![Diagrama trabalho](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/assets/113618051/0f85f225-7a5c-4062-bc27-1ebbd8305c60)
 
-### Processo 1 – NOME DO PROCESSO
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
 
 ## Indicadores de Desempenho
 Para análise e monitoramento do desempenho do sistema, com o intuito de auxiliar na manutenção da aplicação, os seguintes indicadores foram definidos:
