@@ -9,7 +9,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-<img width="1219" alt="Captura de Tela 2024-03-02 às 15 55 30" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/assets/91505442/00f5d5dd-4e49-4191-82dc-2b273534dcd2">
+<img width="939" alt="Captura de Tela 2024-03-02 às 14 42 45" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/assets/91505442/f035d886-cd50-4615-888b-68b7e98e6542">
 
 
 
@@ -17,7 +17,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
-<img width="1193" alt="Captura de Tela 2024-03-02 às 15 04 44" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/assets/91505442/c55b525c-faa7-4723-bcd8-0d3fd247f556">
+<img width="1219" alt="Captura de Tela 2024-03-02 às 15 55 30" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/assets/91505442/2034f9cd-d7ca-4fc3-9095-c931c0d257f2">
+
 
 
 
