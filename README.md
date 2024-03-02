@@ -1,23 +1,25 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`DESENVOLVIMENTO DE UMA APLICAÇÃO DISTRIBUÍDA`
 
-`SEMESTRE`
+`2024.1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto tem por objetivo o desenvolvimento de um aplicativo que ofereça duas interfaces, Web e Mobile, através das quais o usuário, seja ele personal ou aluno, terá acesso a uma ampla variedade de exercícios físicos, divididos pro grupos muscular e com uma demonstração de como sua execução deve ser realizada. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Elves Teixeira Dias
+* Gabriel Gonçalves Morais
+* Henrique de Brito Leite
+* Lucas Reis Alves
+* Maria Luiza Gonçalves de Sousa
+* Rafaella Belisário Avidago
 
 ## Orientador
 
-* Nome completo do professor 1
+* Felipe Augusto Lara Soares
 
 ## Instruções de utilização
 
