@@ -10,7 +10,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Diagrama de Fluxo
 
 Este diagrama de fluxo representa o funcionamento básico de um aplicativo de academia, desde o login inicial até a conclusão de um treino. 
-![Exemplo de Diagrama de Fluxo](img/Diagrama de Fluxo.png)
+![Exemplo de Diagrama de Fluxo](img/Diagrama-de-Fluxo.png)
 
 
 Este diagrama de fluxo fornece uma visão clara do processo envolvido no uso do aplicativo de academia, desde o login até a realização e registro de treinos, permitindo uma experiência de usuário intuitiva e eficiente.
