@@ -6,6 +6,8 @@ Estudos comprovam que a atividade física regular atua como um escudo protetor p
 
 Mas mesmo cientes dos inúmeros benfícios da prática regular da atividade física, o sedentarismo ainda se apresenta como um dos cinco maiores fatores de risco para mortes precoces no mundo todo (SOUSA et al, 2023). E esse número ainda pode aumentar visto que, recentemente a OMS (Organização Mundial de Saúde), instituição intergovernamental e parte integrante da ONU, criada em 1948 com o objetivo de promover ações de saúde em âmbito internacional, atualizou suas recomendações acerca da atividade física regular. Atualmente, para obter benefícios substanciais à saúde, ela recomenda que as pessoas adultas (entre 18 e 64 anos) devam praticar entre 150 a 300 minutos de atividade física aeróbica por semana em intensidade moderada e de 75 a 150 minutos por semana em intensidade vigorosa e recomenda também atividades de fortalecimento muscular 2 ou mais dias por semana que envolvam todos os principais grupos musculares (WHO, 2020).   
 
+Neste contexto atual, vamos apresentar nossa aplicação, em duas interfaces, Web e Mobile, que tem como objetivo ajudar o maior número de pessoas possíveis em deixar o sedentarismo e conseguir alcançar uma prática regular de exercícios físicos.
+
 ## Problema
 
 Incorporar a atividade física na rotina diária é essencial para alcançar uma vida mais saudável e feliz. No entanto, um dos maiores desafios para a prática regular de exercícios físicos é a monotonia e a falta de motivação. Programas repetitivos e sem graça podem facilmente levar ao desânimo e ao abandono da rotina de exercícios. 
@@ -29,3 +31,8 @@ Nosso público são pessoas das mais diversas faixas etárias, que procuram alca
 ## Referências
 
 MELO, Roberta Crevelário de et al. Efeitos da atividade física sobre desfechos de saúde mental: revisão rápida de revisões sistemáticas. Brazilian Journal of Health Review, Curitiba, v. 6, n. 3, p. 10848-10865, may./jun., 2023.
+
+SOUSA, Lucas Magalhães; VIEIRA, Ícaro Matheus Correia; MACHADO, André Accioly Nogueira. Nível de Atividade Física e Obstáculos Relacionados à Prática de Exercícios Físicos Durante a Pandemia de COVID-19. Revista de Educação Física, Saúde e Esporte, Ceará, v.6, n. 1, p. 29-40, dez., 2023.
+
+WHO - World Health Organization. Guidelines On physical Activity and Sedentary Behaviour, 2020. Disponível em: https://iris.who.int/bitstream/handle/10665/336656/9789240015128-eng.pdf?sequence=1. 
+Acesso em: 28 fev. 2023.
