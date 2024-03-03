@@ -48,7 +48,7 @@ Com base nos papéis do Scrum, equipe está organizada da seguinte maneira:
 
 A metodologia de desenvolvimento utilizada é o Scrum, pois tem grandes benefícios quanto a agilidade de entregas, entregas de valor e gerenciamento horizontal e transparente. Uma explicação rápida sobre esse processo pode ser vista no video [Scrum under 5 minutes, do canal Organize Agile, no Youtube](https://www.youtube.com/watch?v=2Vt7Ik8Ublw). 
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o [Board do Git Hub]() estruturado com as seguintes colunas:
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o [Board do Git Hub](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/853/views/1) estruturado com as seguintes colunas:
 
 - `Backlog`: contém todas as tarefas a serem trabalhadas em determinada etapa e representam o Product Backlog. Novas atividades identificadas no decorrer da sprint também devem ser incorporadas a esta lista.
 - `To Do`: Esta lista representa o Sprint Backlog. São as tarefas que estão sendo trabalhadas dentro daquela Sprint, e vem a partir da coluna `Backlog`.
