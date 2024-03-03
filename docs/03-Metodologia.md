@@ -55,6 +55,8 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - `In Progress`: Tarefas sendo realizadas naquele momento.
 - `Done`: Tarefas concluídas com sucesso.
 
+![Board](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/board.png)
+
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
