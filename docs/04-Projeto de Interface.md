@@ -24,13 +24,13 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 <p align="center">
       
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Login.png">
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Login.png">
 
 </p>
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Sign%20Up.png">
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Sign%20Up.png">
 
 </p>
 
