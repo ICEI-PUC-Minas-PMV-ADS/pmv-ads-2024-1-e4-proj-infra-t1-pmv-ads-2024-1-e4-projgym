@@ -12,10 +12,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 Este diagrama de fluxo representa o funcionamento básico de um aplicativo de academia, desde o login inicial até a conclusão de um treino. 
 ![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+Este diagrama de fluxo fornece uma visão clara do processo envolvido no uso do aplicativo de academia, desde o login até a realização e registro de treinos, permitindo uma experiência de usuário intuitiva e eficiente.
 
 ## Wireframes
 
