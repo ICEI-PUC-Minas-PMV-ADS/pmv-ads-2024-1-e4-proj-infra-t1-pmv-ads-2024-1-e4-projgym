@@ -22,15 +22,38 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+<p align="center">
+      
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Login.png">
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+</p>
+
+<p align="center">
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Sign%20Up.png">
+
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Home.png">
+
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Exercise.png">
+
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/History.png">
+
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Profile.png">
+
+</p>
