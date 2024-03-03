@@ -94,53 +94,41 @@ Para análise e monitoramento do desempenho do sistema, com o intuito de auxilia
 |índice de satisfação |	Medir a qualidade do sistema por meio do usuário| Taxa de reclamação/ relatos de bugs |	Relatos avaliatívos do usuário	| Analíse dos usuários| Identificar possíveis erros ou bugs |
 | Atividade do usuário |	Identificar o nível de atividade do usuários	| Criar estratégias para tornar o sistema útil e atrativo para o usuário |Análise de Tabelas| Tabelas | Número de listas de exercícios criadas	| Analisar os clientes que fizeram listas personalizadas	| Clientes que ultilizam o sistema na sua função principal	| -	| Análise de Dados	| Melhorar funcionalidades |
 | Taxa de evasão do sistema |	Monitorar a quantidade de usuários que encerraram sua conta |	Taxa de exclusão de contas em determinado período |	Soma das compras realizadas pelos usuários |	Tabela de dados	| Melgorar a experiencia do usuário |
+
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| A aplicação deverá permitir que os usuários insiram suas credenciais de login, como nome de usuário e senha, para acessar. | ALTA |
+|RF-02| A aplicação deverá oferecer a opção para os usuários se registrarem dentro do próprio aplicativo, preenchendo um formulário com informações como nome, e-mail e senha. | ALTA |
+|RF-03| A aplicação deverá redirecionar o usuário logado para a tela principal, onde será exibido uma lista de exercícios disponíveis para realizar. | ALTA |
+|RF-04| A aplicação deverá permitir que o usuário selecione um exercício para visualizar as instruções de execução, que podem incluir um vídeo demonstrativo. | MÉDIA |
+|RF-05| A aplicação deverá permitir que o usuário acesse o histórico de suas sessões de treino anteriores para acompanhar seu progresso ao longo do tempo. | MÉDIA |
+|RF-06| A aplicação deverá permitir que o usuário visualize e atualize suas informações pessoais, como nome, foto de perfil e alteração de senha. | BAIXA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-01| A aplicação deve ser compatível com sistemas Android e iOS | ALTA |
+|RNF-02| A aplicação deve ser compatível com os principais navegadores Web | ALTA |
+|RNF-03| O projeto deverá ser implementado com um banco de dados SQLite. | ALTA |
+|RNF-04| A aplicação deve possuir interface intuitiva. | MÉDIA |
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| Só poderão ser utilizados programas gratuitos ou fornecidos pela PUC Minas |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
