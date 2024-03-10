@@ -17,7 +17,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
-<img width="1219" alt="Captura de Tela 2024-03-02 às 15 55 30" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/assets/91505442/2034f9cd-d7ca-4fc3-9095-c931c0d257f2">
+<img width="1078" alt="Captura de Tela 2024-03-10 às 19 16 55" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/assets/91505442/8b6fa0b1-5448-4371-9f1c-bc60c8c41840">
+
 
 
 
