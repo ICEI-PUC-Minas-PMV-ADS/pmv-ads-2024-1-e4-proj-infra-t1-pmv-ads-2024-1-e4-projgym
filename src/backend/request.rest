@@ -1,0 +1,39 @@
+POST http://localhost:3333/api/exercises
+Content-Type: application/json
+
+{
+      "name": "Supino inclinado com barra",
+      "series": 4,
+      "repetitions": 12,
+      "group": "peito",
+      "demo": "supino_inclinado_com_barra.gif",
+      "thumb": "supino_inclinado_com_barra.png"
+    
+}
+
+###
+
+GET http://localhost:3333/api/exercises
+
+###
+
+GET http://localhost:3333/api/exercises/6609e5010bbb431c01036597
+
+###
+
+DELETE http://localhost:3333/api/exercises/6609e5010bbb431c01036597
+
+###
+
+PUT http://localhost:3333/api/exercises/6609e57cdd41e1caf7f3e8f5
+Content-Type: application/json
+
+{
+      "name": "Crucifixo Reto",
+      "series": 3,
+      "repetitions": 12,
+      "group": "peito",
+      "demo": "crucifixo_reto.gif",
+      "thumb": "crucifixo_reto.png"
+    
+}

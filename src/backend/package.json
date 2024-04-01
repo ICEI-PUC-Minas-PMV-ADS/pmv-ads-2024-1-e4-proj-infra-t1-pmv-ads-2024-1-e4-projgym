@@ -8,7 +8,7 @@
     "start": "nodemon ./src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "GymGo - Eixo 4 - PUC Minas",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
