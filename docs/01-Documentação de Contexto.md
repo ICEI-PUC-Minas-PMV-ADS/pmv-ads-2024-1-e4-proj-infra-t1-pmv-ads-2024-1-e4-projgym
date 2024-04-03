@@ -26,4 +26,4 @@ Sendo assim, a aplicação vem para fornecer aos usuários a possibilidade de ro
 
 ## Público-Alvo
 
-Nosso público são pessoas das mais diversas faixas etárias, que procuram alcançar uma rotina de treino mais dinâmica e motivadora. 
+Nosso público são pessoas a partir dos 18 anos, sem nenhum tipo de lesão limitadora, que necessite de maiores cuidados, que procuram alcançar uma rotina de treino mais dinâmica e motivadora. 
