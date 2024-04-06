@@ -1,12 +1,27 @@
 # Registro de Testes de Software
+| Caso de teste  | CT-01 |
+| ------------- | ------------- |
+| Requisitos associados | RF-01 e RF-02 --> permitir o cadastro e acesso  de usuários ao fornecer informações credenciais  |
+| objetivos | Verificar a funcionalidade do cadastro operante |
+| Passos    |-->iniciar a aplicação  <br> --> Fornecer informações de acesso (senha, email) <br>  --> criar/acessar
+| Exito     | Valida informações credenciais fornecidaas pelo user |
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
-## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+| Caso de teste | CT-02                                                             |
+| ------------- | -------------                                                     |
+| Requisitos associados  | RF-03                                                     | 
+| objetivos  |  listar  exercícios disponíveis para realizar.                                                                                               |
+|  Passos    |  -->Iniciar aplicação --> <br> Fornecer informações de acesso --> <br> Acessar a pagina principal                                            |                           
+|  Exito     |    Redirecionar o usuário logado para a tela principal mostrando uma listagem                                                                |
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+
+
+
+| Caso de teste  | CT-03 |
+| ------------- | ------------- |
+| Requisitos associados  | RF-04  |
+|  objetivos | A aplicação deverá permitir que o usuário selecione um exercício para visualizar as instruções de execução  |
+|  Passos    |  -->iniciar a aplicação o--> <br> Fornecer informações de acesso --> <br> Acessar a pagina principal <br> selecionar um dos exercicios listados |
+|  Exito     |  O usuário deve conseguir navegar entre as telas sem impedimentos ou outros redirecionamentos |   
