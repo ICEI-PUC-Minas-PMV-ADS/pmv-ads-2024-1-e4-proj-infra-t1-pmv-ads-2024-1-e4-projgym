@@ -1,17 +1,22 @@
-const express = require("express")
-const cors = require("cors")
-const app = express()
+const express = require("express");
+const cors = require("cors");
+const UserRoutes = require('./routes/UserRoutes')
 
-app.use(cors())
+const app = express();
 
-app.use(express.json())
+// Config JSON response
+app.use(express.json());
 
-// DB Connection
-const conn = require("./database/conn.js")
+//Solve CORS
+app.use(cors({ credentials: true, origin: "http://localhost:3333" }));
 
-conn();
+// Public folder for images
+app.use(express.static("public"));
+
+// Routes
+app.use('/users', UserRoutes)
 
 const PORT = 3333;
-app.listen(PORT, function(){
-    console.log(`Server is running on Port ${PORT}`)
+app.listen(PORT, function () {
+  console.log(`Server is running on Port ${PORT}`);
 });
