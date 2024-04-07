@@ -1,20 +1,20 @@
 const express = require("express");
 const cors = require("cors");
-const UserRoutes = require('./routes/UserRoutes')
-
 const app = express();
 
-// Config JSON response
+app.use(cors());
+
 app.use(express.json());
 
-//Solve CORS
-app.use(cors({ credentials: true, origin: "http://localhost:3333" }));
+// DB Connection
+const conn = require("./database/conn.js");
 
-// Public folder for images
-app.use(express.static("public"));
+conn();
 
 // Routes
-app.use('/users', UserRoutes)
+const routes = require("./routes/index.js");
+
+app.use("/api", routes);
 
 const PORT = 3333;
 app.listen(PORT, function () {

@@ -1,18 +1,17 @@
 const mongoose = require("mongoose");
-require("dotenv").config();
 
-async function connectDB() {
-
-    const dbUser = process.env.DB_USER;
-    const dbPassword = process.env.DB_PASS;
+async function main() {
+  try {
+    mongoose.set("strictQuery", true);
 
     await mongoose.connect(
-      `mongodb+srv://${dbUser}:${dbPassword}@cluster0.hhjfolf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+      "mongodb+srv://gymgoteam:oG5UJKUnWCpKf4Wa@cluster0.hhjfolf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     );
 
-    console.log('Conectado ao banco!')
+    console.log("Conectado ao banco!");
+  } catch (error) {
+    console.log(`Erro: ${error}`);
+  }
 }
 
-connectDB().catch((error) => console.log(error))
-
-module.exports = mongoose;
+module.exports = main;
