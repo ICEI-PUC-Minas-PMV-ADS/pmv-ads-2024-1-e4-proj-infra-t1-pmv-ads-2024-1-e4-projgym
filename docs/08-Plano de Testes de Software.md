@@ -1,19 +1,46 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+| Caso de teste  | CT-01 |
+| ------------- | ------------- |
+| Requisitos associados | RF-01 e RF-02 --> permitir o cadastro e acesso  de usuários ao fornecer informações credenciais  |
+| objetivos | Verificar a funcionalidade do cadastro operante |
+| Passos    |-->iniciar a aplicação  <br> --> Fornecer informações de acesso (senha, email) <br>  --> criar/acessar
+| Exito     | Valida informações credenciais fornecidaas pelo user |
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
+| Caso de teste | CT-02                                                             |
+| ------------- | -------------                                                     |
+| Requisitos associados  | RF-03                                                     | 
+| objetivos  |  listar  exercícios disponíveis para realizar.                                                                                               |
+|  Passos    |  -->Iniciar aplicação <br> -->  Fornecer informações de acesso <br> -->  Acessar a pagina principal                                            |                           
+|  Exito     |    Redirecionar o usuário logado para a tela principal mostrando uma listagem                                                                |
+
+
+
+
+| Caso de teste  | CT-03 |
+| ------------- | ------------- |
+| Requisitos associados  | RF-04  |
+|  objetivos | A aplicação deverá permitir que o usuário selecione um exercício para visualizar as instruções de execução  |
+|  Passos    |  -->iniciar a aplicação <br> -->  Fornecer informações de acesso <br> -->  Acessar a pagina principal --> <br> selecionar um dos exercicios listados |
+|  Exito     |  O usuário deve conseguir navegar entre as telas sem impedimentos ou outros redirecionamentos |   
+
+
+| Caso de teste  | CT-04 |
+| ------------- | ------------- |
+| Requisitos associados  | RF-05|
+|  objetivos | Fornecer um histórico de exercícios realizados pelo usuário |
+|  Passos    | -->iniciar a aplicação <br> -->  Fornecer informações de acesso <br> -->  Acessar a pagina principal --> <br> --> Acessar o histórico pelo botão |
+|  Exito     | Permitir o tempo todo que o usuário tenha acesso ao histórico de maneira responsiva e direta |
+
+
+
+| Caso de teste  | CT-05 |
+| Requisitos associados  | RF-06|
+| objetivos | A aplicação deve atualizar os dados cadastrais de acordo com a vontade do usuário |
+|  Passos    | -->iniciar a aplicação <br> -->  Fornecer informações de acesso <br> -->  Acessar a pagina principal --> <br> --> acessar a aba perfil --> atualizar os dados |
+|  Exito     | A aplicação deve atualizar os dados no banco e mostrar as alterações ao usuário
+
+

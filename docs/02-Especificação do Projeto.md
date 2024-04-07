@@ -117,7 +117,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-01| A aplicação deve ser compatível com sistemas Android e iOS | ALTA |
 |RNF-02| A aplicação deve ser compatível com os principais navegadores Web | ALTA |
-|RNF-03| O projeto deverá ser implementado com um banco de dados SQLite. | ALTA |
+|RNF-03| O projeto deverá ser implementado com um banco de dados NoSQL. | ALTA |
 |RNF-04| A aplicação deve possuir interface intuitiva. | MÉDIA |
 
 ## Restrições
