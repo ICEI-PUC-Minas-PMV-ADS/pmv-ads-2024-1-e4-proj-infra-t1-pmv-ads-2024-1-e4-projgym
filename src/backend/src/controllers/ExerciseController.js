@@ -7,7 +7,6 @@ const exerciseController = {
         name: req.body.name,
         series: req.body.series,
         repetitions: req.body.repetitions,
-        group: req.body.group,
         demo: req.body.demo,
         thumb: req.body.thumb,
       };
@@ -74,12 +73,9 @@ const exerciseController = {
         name: req.body.name,
         series: req.body.series,
         repetitions: req.body.repetitions,
-        group: req.body.group,
         demo: req.body.demo,
         thumb: req.body.thumb,
       };
-
-
 
       const updatedExercise = await ExerciseModel.findByIdAndUpdate(id, exercise);
 

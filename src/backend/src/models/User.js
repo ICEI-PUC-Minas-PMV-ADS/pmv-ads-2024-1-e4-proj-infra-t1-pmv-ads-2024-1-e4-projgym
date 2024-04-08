@@ -4,7 +4,7 @@ const { Schema } = mongoose;
 
 const userSchema = new Schema(
   {
-    name: {
+    nome: {
       type: String,
       required: true,
     },
@@ -20,6 +20,9 @@ const userSchema = new Schema(
     avatar: {
       type: String
     },
+    historicos: {
+      type: Array
+    }
   },
   { timestamps: true }
 );

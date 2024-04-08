@@ -16,10 +16,6 @@ const exerciseSchema = new Schema(
       type: Number,
       required: true,
     },
-    group: {
-      type: String,
-      required: true,
-    },
     demo: {
       type: String,
       required: true,

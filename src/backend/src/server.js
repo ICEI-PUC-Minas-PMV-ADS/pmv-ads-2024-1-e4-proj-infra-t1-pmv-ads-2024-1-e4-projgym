@@ -20,3 +20,11 @@ const PORT = 3333;
 app.listen(PORT, function () {
   console.log(`Server is running on Port ${PORT}`);
 });
+
+
+
+// TESTES ABAIXO
+
+// const controler = require("./controllers/UserController");
+// let a = controler.deleteHist();
+let b = 'b'
