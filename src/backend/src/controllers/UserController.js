@@ -17,7 +17,7 @@ module.exports = class UserController {
     }
 
     if (password !== confirmPassword) {
-      return res.status(422).json({ message: "As senhas não conferem!" });
+      return res.status(422).json({ message: "As senhas não conferem. Tente novamente!" });
     }
 
     // Check if user exists
