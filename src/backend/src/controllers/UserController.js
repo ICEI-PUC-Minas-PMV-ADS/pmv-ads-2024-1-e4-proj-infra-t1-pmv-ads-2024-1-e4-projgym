@@ -158,4 +158,70 @@ module.exports = class UserController {
       return;
     }
   }
+
+
+
+  //  ----- Historicos -----
+
+
+  // OK
+  async createHist(req, res){
+    try {
+        let agora = new Date()
+            , exer_id = req.body.exer_id
+            , user_id = req.body.user_id 
+        ;
+
+        const hist = {
+            _id: uuid.v4(), 
+            exer_id: exer_id,
+            data: agora,
+        };
+
+        const updated = await UserModel.findByIdAndUpdate(user_id, {
+            $push: { historicos: hist },
+        }, { new: true });
+
+        res.status(201).json({ response, message: "Histórico criado" });
+
+    } catch (error) {
+         console.log(error);
+    }
+  }
+
+  // OK
+  async getAllHist(req, res){
+    try {
+        const id = req.params.id;
+        const item = await UserModel.findById(id,
+            {historicos: 1}
+        );
+
+        res.json(item);
+
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  // OK
+  async deleteHist(req, res){
+    try {
+        let user_id = req.body.user_id
+            , hist = {
+                _id: req.body.hist_id
+            }
+        ;
+
+        const updated = await UserModel.findByIdAndUpdate(user_id, {
+            $pull: { historicos: hist },
+        }, { new: true });
+
+      res.status(200).json({ deleted, message: "Histórico deletado" });
+
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  
 };
