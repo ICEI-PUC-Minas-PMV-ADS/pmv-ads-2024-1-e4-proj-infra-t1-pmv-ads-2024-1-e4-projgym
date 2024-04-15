@@ -29,7 +29,7 @@ Este diagrama de fluxo fornece uma visão clara do processo envolvido no uso do 
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Home.png">
+   <img src="docs/img/Exercise.png">
    
 </p>
 
