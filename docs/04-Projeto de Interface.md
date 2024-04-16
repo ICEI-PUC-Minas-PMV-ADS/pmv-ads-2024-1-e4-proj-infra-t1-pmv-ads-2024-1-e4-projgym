@@ -17,7 +17,7 @@ Este diagrama de fluxo fornece uma visão clara do processo envolvido no uso do 
 ## Wireframes
 
 <p align="center">
-Telas do Projeto para App Móvel:
+Telas do Projeto App Móvel:
 </p>
 
 <p align="center">
@@ -51,4 +51,9 @@ Telas do Projeto para App Móvel:
 <p align="center">
  
    <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Profile.png">
+</p>
+
+
+<p align="center">
+Telas do Projeto App Desktop:
 </p>
