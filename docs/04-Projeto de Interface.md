@@ -66,28 +66,28 @@ Telas do Projeto App Desktop:
 
 <p align="center">
  
-   <img src="docs/img/web-signup.png">
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-signup.png">
 </p>
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Home.png">
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-home.png">
    
 </p>
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Exercise.png">
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-exercise.png">
    
 </p>
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/History.png">
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-history.png">
 </p>
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Profile.png">
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-profile.png">
 </p>
 
