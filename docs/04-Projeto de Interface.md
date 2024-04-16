@@ -57,3 +57,37 @@ Telas do Projeto App Móvel:
 <p align="center">
 Telas do Projeto App Desktop:
 </p>
+
+<p align="center">
+      
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-login.png">
+
+</p>
+
+<p align="center">
+ 
+   <img src="docs/img/web-signup.png">
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Home.png">
+   
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Exercise.png">
+   
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/History.png">
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Profile.png">
+</p>
+
