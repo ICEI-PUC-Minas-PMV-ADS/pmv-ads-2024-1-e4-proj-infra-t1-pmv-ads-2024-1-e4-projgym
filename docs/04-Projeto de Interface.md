@@ -17,7 +17,7 @@ Este diagrama de fluxo fornece uma visão clara do processo envolvido no uso do 
 ## Wireframes
 
 <p align="center">
-Telas do Projeto para Celular
+Telas do Projeto para Celular:
 </p>
 
 <p align="center">
