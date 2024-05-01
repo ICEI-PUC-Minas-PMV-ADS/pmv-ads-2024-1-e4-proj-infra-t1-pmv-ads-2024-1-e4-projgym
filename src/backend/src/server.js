@@ -25,6 +25,6 @@ app.listen(PORT, function () {
 
 // TESTES ABAIXO
 
-// const controler = require("./controllers/UserController");
-// let a = controler.deleteHist();
+// const controler = require("./controllers/ExerciseController");
+// let a = controler.create();
 let b = 'b'

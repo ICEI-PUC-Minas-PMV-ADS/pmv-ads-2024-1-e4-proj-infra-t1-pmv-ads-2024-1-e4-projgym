@@ -1,0 +1,18 @@
+#root {
+  text-align: center;
+}
+
+.background-image{
+
+  background-repeat:no-repeat;
+  position: fixed;
+  left: 50%;
+  top: 5%;
+  z-index: 0;
+  opacity: 0.3;
+  display: block;
+  background-image: url("../public/background.png");
+  height: 100%;  
+  width: 100%;
+  background-size: 500px;
+}

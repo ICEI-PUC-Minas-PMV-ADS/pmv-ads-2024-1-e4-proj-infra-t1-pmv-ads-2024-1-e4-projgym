@@ -1,19 +1,24 @@
 const { Exercise: ExerciseModel } = require("../models/Exercise");
 
 const exerciseController = {
-  create: async (req, res) => {
+create: async (req, res) => {
     try {
       const exercise = {
-        name: req.body.name,
-        series: req.body.series,
-        repetitions: req.body.repetitions,
-        demo: req.body.demo,
-        thumb: req.body.thumb,
+        // name: req.body.name,
+        // series: req.body.series,
+        // repetitions: req.body.repetitions,
+        // demo: req.body.demo,
+        // thumb: req.body.thumb,
+        name: 'Supino',
+        series: 4,
+        repetitions: 9
+        demo: 'asdsd',
+        thumb: ''
       };
 
       const response = await ExerciseModel.create(exercise);
 
-      res.status(201).json({ response, message: "Created" });
+      // res.status(201).json({ response, message: "Created" });
     } catch (error) {
       console.log(error);
     }
