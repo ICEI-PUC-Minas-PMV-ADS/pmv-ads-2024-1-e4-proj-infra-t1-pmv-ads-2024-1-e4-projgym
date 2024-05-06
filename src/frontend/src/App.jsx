@@ -14,6 +14,7 @@ function App() {
       <Login></Login>
       <div class="background-container">
         <div class="background-image"></div>
+        {/* <img src="../public/background.png" alt="" class="background-image" /> */}
       </div>
     </>
   )

@@ -5,17 +5,12 @@ export default function Login() {
     return (
         <>
             <div class="login">
+                <input type="text" placeholder='Nome'/>
                 <input type="text" placeholder='E-mail'/>
                 <input type="text" placeholder='Senha'/>
+                <input type="text" placeholder='Confirme a senha'/>
 
-                <Button label="Acessar"></Button>
-                <br />
-                <br />
-                <br />
-                <div>
-                    <span class="span-link">Ainda não tem acesso?</span>
-                </div>
-                <Button label="Criar conta"></Button>
+                <Button label="Criar e acessar"></Button>
             </div>
         </>
     );
