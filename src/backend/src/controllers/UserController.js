@@ -1,5 +1,6 @@
 const User = require("../models/User");
 const bcrypt = require("bcrypt");
+const uuid = require("uuid");
 const jwt = require("jsonwebtoken");
 const createUserToken = require("../helpers/create-user-token");
 const getToken = require("../helpers/get-token");
@@ -165,7 +166,7 @@ module.exports = class UserController {
 
 
   // OK
-  async createHist(req, res){
+  static async createHist(req, res){
     try {
         let agora = new Date()
             , exer_id = req.body.exer_id
@@ -178,11 +179,11 @@ module.exports = class UserController {
             data: agora,
         };
 
-        const updated = await UserModel.findByIdAndUpdate(user_id, {
+        const updated = await User.findByIdAndUpdate(user_id, {
             $push: { historicos: hist },
         }, { new: true });
 
-        res.status(201).json({ response, message: "Histórico criado" });
+        res.status(201).json({ message: "Histórico criado" });
 
     } catch (error) {
          console.log(error);
@@ -190,10 +191,10 @@ module.exports = class UserController {
   }
 
   // OK
-  async getAllHist(req, res){
+  static async getAllHist(req, res){
     try {
         const id = req.params.id;
-        const item = await UserModel.findById(id,
+        const item = await User.findById(id,
             {historicos: 1}
         );
 
@@ -205,15 +206,16 @@ module.exports = class UserController {
   }
 
   // OK
-  async deleteHist(req, res){
+  static async deleteHist(req, res){
     try {
-        let user_id = req.body.user_id
+        let user_id = req.params.id
             , hist = {
-                _id: req.body.hist_id
+                _id: req.params.hist_id
             }
         ;
+      
 
-        const updated = await UserModel.findByIdAndUpdate(user_id, {
+        const deleted = await User.findByIdAndUpdate(user_id, {
             $pull: { historicos: hist },
         }, { new: true });
 

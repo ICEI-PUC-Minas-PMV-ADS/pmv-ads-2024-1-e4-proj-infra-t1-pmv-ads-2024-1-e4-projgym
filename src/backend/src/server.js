@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const UserRoutes = require('./routes/UserRoutes')
+const ExerciseRoutes = require('./routes/ExerciseRoutes')
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.use(express.static("public"));
 
 // Routes
 app.use('/users', UserRoutes)
+app.use('/', ExerciseRoutes)
 
 const PORT = 3333;
 app.listen(PORT, function () {

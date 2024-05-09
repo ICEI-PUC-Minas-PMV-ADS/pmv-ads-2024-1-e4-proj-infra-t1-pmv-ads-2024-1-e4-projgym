@@ -2,7 +2,7 @@ POST http://localhost:3333/api/exercises
 Content-Type: application/json
 
 {
-      "name": "Supino inclinado com barra",
+      "nome": "Supino inclinado com barra",
       "series": 4,
       "repetitions": 12,
       "group": "peito",
@@ -14,6 +14,19 @@ Content-Type: application/json
 ###
 
 GET http://localhost:3333/api/exercises
+
+###
+
+POST http://localhost:3333/users/register
+Content-Type: application/json
+
+{
+    "name": "Rafaella",
+    "email": "rafaella@xyz.com",
+    "password": "12345",
+    "confirmPassword": "12345"
+}
+
 
 ###
 
@@ -37,3 +50,4 @@ Content-Type: application/json
       "thumb": "crucifixo_reto.png"
     
 }
+
