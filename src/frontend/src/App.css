@@ -1,0 +1,19 @@
+#root {
+  text-align: center;
+}
+
+.background-image{
+
+  background-repeat:no-repeat;
+  position: fixed;
+  left: 50%;
+  top: 5%;
+  z-index: -1;
+  opacity: 0.2;
+  display: block;
+  /* background-color: red; */
+  background-image: url("../public/background.png");
+  height: 100%;  
+  width: 100%;
+  background-size: 500px;
+}

@@ -1,0 +1,47 @@
+.card{
+    margin-top: 10px;
+    /* border: 1px red solid; */
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(49, 49, 49);
+    width: 350px;
+}
+
+.thumb {
+    /* border: 1px pink solid; */
+    border-radius: 4px;
+    width: 63px;
+    margin: 7px;
+}
+
+.info{
+    /* border: 1px blue solid; */
+    margin: 7px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info .title{
+    font-weight: bold;
+}
+
+.info .repetitions{
+    font-size: small;
+}
+
+.abrir {
+    /* border: 1px yellow solid; */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px 10px;
+}
+
+.abrir div{
+    /* border: 1px red solid; */
+    margin-top: 23px;
+}

@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(115, 119, 116, 0.189) ;
+  /* background: linear-gradient(180deg, #212c1feb 0%, rgba(0,0,0,1) 130%); */
+  /* padding: 460px; */
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  margin: 0;
+  /* height: 100%; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #e8d2ac;
+  color: black;
+  cursor: pointer;
+  transition: 0.25s;
+  white-space: nowrap;
+  padding: 20px;
+  width: 350px;
+  margin-top: 30px;
+}
+button:hover {
+  background-color: #c0aa85;
+}
+
+input {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 315px;
+  white-space: nowrap;
+  margin-top: 15px;
+}
+
+.span-link {
+  cursor: pointer;
+}
+
+/* button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+

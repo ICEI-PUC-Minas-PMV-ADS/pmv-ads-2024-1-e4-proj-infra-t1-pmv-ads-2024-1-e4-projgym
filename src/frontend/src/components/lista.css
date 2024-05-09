@@ -1,0 +1,14 @@
+.lista {
+    padding: 20px;
+    margin-top: 200px;
+    width: 380px;
+    /* border: 1px yellow solid; */
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+    align-items: center;
+}
+
+.lista h3{
+    color: rgb(187, 182, 150);
+}

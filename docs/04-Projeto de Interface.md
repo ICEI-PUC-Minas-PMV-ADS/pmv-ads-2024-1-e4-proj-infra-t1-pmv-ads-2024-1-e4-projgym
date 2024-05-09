@@ -17,6 +17,10 @@ Este diagrama de fluxo fornece uma visão clara do processo envolvido no uso do 
 ## Wireframes
 
 <p align="center">
+Telas do Projeto App Móvel:
+</p>
+
+<p align="center">
       
    <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Login.png">
 
@@ -25,29 +29,65 @@ Este diagrama de fluxo fornece uma visão clara do processo envolvido no uso do 
 <p align="center">
  
    <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Sign%20Up.png">
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Home.png">
+   
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Exercise.png">
+   
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/History.png">
+</p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/Profile.png">
+</p>
+
+
+<p align="center">
+Telas do Projeto App Desktop:
+</p>
+
+<p align="center">
+      
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-login.png">
 
 </p>
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Home.png">
-
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-signup.png">
 </p>
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Exercise.png">
-
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-home.png">
+   
 </p>
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/History.png">
-
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-exercise.png">
+   
 </p>
 
 <p align="center">
  
-   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/temp-e4-proj/blob/main/docs/img/Profile.png">
-
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-history.png">
 </p>
+
+<p align="center">
+ 
+   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projgym/blob/main/docs/img/web-profile.png">
+</p>
+

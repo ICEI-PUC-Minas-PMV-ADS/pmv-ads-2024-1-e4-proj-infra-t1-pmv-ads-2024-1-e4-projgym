@@ -1,7 +1,7 @@
 const { Exercise: ExerciseModel } = require("../models/Exercise");
 
 const exerciseController = {
-  create: async (req, res) => {
+create: async (req, res) => {
     try {
       const exercise = {
         name: req.body.name,
