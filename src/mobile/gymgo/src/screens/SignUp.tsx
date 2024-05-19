@@ -27,8 +27,12 @@ export function SignUp() {
 
         <Center>
             <Heading color="gray.100" fontSize="xl" mb={6} fontFamily="heading">
-                Acesse sua conta
+                Crie sua conta
             </Heading>
+
+            <Input 
+                placeholder="Nome"                
+            />
 
             <Input 
                 placeholder="E-mail"
@@ -40,18 +44,14 @@ export function SignUp() {
             secureTextEntry
             />
 
-            <Button title="Acessar" />
-        </Center>
-
-        <Center mt={24}>
-            <Text color="gray.100" fontSize="sm" mb={3} fontFamily="body">
-                Ainda não tem acesso?
-            </Text>
-        </Center>
-
+            <Button title="Criar e acessar" />
+        </Center>           
+        
         <Button 
-            title="Criar conta"
-            variant="outline" />
+            title="Voltar para o login"
+            variant="outline" 
+            mt={24}
+            />
 
         </VStack>
     </ScrollView>
