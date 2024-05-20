@@ -44,31 +44,19 @@ export function AppRoutes() {
             <Screen
             name="home"
             component={ Home }
-            options={{
-                tabBarIcon: ({color}) => (
-                    <HomePng  fill={color} width={iconSize} height={iconSize} />
-                )
-            }}
+           
             />
 
             <Screen
             name="history"
             component={ History }
-            options={{
-                tabBarIcon: ({color}) => (
-                    <HistoryPng  fill={color} width={iconSize} height={iconSize} />
-                )
-            }}
+            
             />
 
             <Screen
             name="profile"
             component={ Profile }
-            options={{
-                tabBarIcon: ({color}) => (
-                    <ProfilePng  fill={color} width={iconSize} height={iconSize} />
-                )
-            }}
+            
             />
 
             <Screen
