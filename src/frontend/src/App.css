@@ -17,3 +17,23 @@
   width: 100%;
   background-size: 500px;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.actions {
+  position: fixed;
+  z-index: 2;
+  top: 18px;
+  left: 15px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}

@@ -6,7 +6,7 @@ export default function Login() {
         <>
             <div class="login">
                 <input type="text" placeholder='E-mail'/>
-                <input type="text" placeholder='Senha'/>
+                <input type="password" placeholder='Senha'/>
 
                 <Button label="Acessar"></Button>
                 <br />

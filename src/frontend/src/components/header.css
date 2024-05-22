@@ -6,4 +6,45 @@
     width: 100%;
     height: 80px;
     z-index: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.actions {
+    position: relative;
+    left: 15px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.actions div {
+    border: 1px red solid;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 65px;
+    height: 65px;
+    overflow: hidden;
+    border-radius: 100px;
+    position: relative;
+    top: 6px;
+    right: 10px;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gym{
+    position: relative;
+    bottom: 16px;
+    opacity: 80%;
 }

@@ -1,0 +1,21 @@
+.title {
+    color: rgb(187, 182, 150);
+}
+
+.repetitions {
+    position: relative;
+    right: 22px;
+    bottom: 4px
+}
+
+.data-hora {
+    font-size: 13px;
+    position: relative;
+    top: 13px;
+    margin: 8px
+}
+
+.hora {
+    position: relative;
+    bottom: 9px;
+}

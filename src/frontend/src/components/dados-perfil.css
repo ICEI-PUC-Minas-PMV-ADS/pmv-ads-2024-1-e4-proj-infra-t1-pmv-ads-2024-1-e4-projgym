@@ -1,0 +1,26 @@
+.container-dados{
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.alterar-foto {
+    font-size: 13px;
+    margin: 7px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.alterar-senha {
+    margin-top: 40px;
+}
