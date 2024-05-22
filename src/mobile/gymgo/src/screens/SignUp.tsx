@@ -1,7 +1,7 @@
 import { useNavigation } from '@react-navigation/native'
 import { VStack, Image, Text, Center, Heading, ScrollView } from "native-base";
 
-import LogoSvg from '@assets/Logo.svg';
+import Logo from '@assets/logo.png';
 import BackgroundImg from '@assets/background.png';
 
 import { Input } from "@components/Input";
@@ -26,13 +26,12 @@ export function SignUp() {
             position="absolute"
             />
 
-        <Center my={24}>
-            <LogoSvg />
-
+            <Center my={24}>
+            <Image source={Logo} alt="GymGo" />
             <Text color="gray.100" fontSize="sm">
-                Sua motivação diária
+              Sua motivação diária
             </Text>
-        </Center>
+            </Center>
 
         <Center>
             <Heading color="gray.100" fontSize="xl" mb={6} fontFamily="heading">
