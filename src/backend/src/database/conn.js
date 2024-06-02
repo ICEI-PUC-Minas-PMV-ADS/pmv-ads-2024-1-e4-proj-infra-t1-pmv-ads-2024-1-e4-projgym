@@ -7,7 +7,8 @@ async function connectDB() {
     const dbPassword = process.env.DB_PASS;
 
     await mongoose.connect(
-      `mongodb+srv://${dbUser}:${dbPassword}@cluster0.hhjfolf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+      "mongodb+srv://gymgoteam:oG5UJKUnWCpKf4Wa@cluster0.hhjfolf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      // `mongodb+srv://${dbUser}:${dbPassword}@cluster0.hhjfolf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
     );
 
     console.log('Conectado ao banco!')

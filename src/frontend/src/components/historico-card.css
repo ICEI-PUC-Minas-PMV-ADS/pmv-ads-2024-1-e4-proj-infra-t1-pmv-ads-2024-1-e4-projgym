@@ -1,10 +1,12 @@
 .title {
     color: rgb(187, 182, 150);
+    position: relative;
+    left: 10px
 }
 
 .repetitions {
     position: relative;
-    right: 22px;
+    right: 10px;
     bottom: 4px
 }
 

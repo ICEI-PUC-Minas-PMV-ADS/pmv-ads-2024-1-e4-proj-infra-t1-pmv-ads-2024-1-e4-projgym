@@ -21,6 +21,15 @@
     display: block;
 }
 
+.sair button {
+    background-color: rgb(250, 163, 163) !important;
+}
+
+.sair button:hover {
+    background-color: rgb(251, 148, 148) !important;
+}
+
+
 .alterar-senha {
     margin-top: 40px;
 }
