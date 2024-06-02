@@ -9,38 +9,75 @@ import Lista from './components/lista.jsx'
 import ListaHist from './components/historico-lista.jsx'
 import Dados from './components/dados-perfil.jsx'
 import viteLogo from '/vite.svg'
+import { getAllExercicio } from '../api/requests.js'
 import './App.css'
 
 function App() {
+  const modes = {Lista: 'Lista', Dados: 'Dados', Hist: 'Hist', Login: 'Login', Cadastro: 'Cadastro' }
+  
   const pages = {
     Lista: <Lista></Lista>,
     Dados: <Dados></Dados>,
-    Hist: <ListaHist></ListaHist>
+    Hist: <ListaHist></ListaHist>,
   }
 
-  const [mode, setMode] = useState(pages['Lista']);
+  const [mode, setMode] = useState(modes['Login']);
+  // mode = modes['Login']
 
-  const onClickDados = () => {
-    setMode(pages['Dados']);
+  const setModeDados = () => {
+    setMode(modes['Dados']);
   }
 
-  const onClickHist = () => {
-    setMode(pages['Hist']);
+  const setModeHist = () => {
+    setMode(modes['Hist']);
   }
 
-  const onClickLista = () => {
-    setMode(pages['Lista']);
+  const setModeLista = async () => {
+    setMode(modes['Lista']);
+    let res = await getAllExercicio();
+    let a = 'a'
   }
- 
+
+  const setModeSair = () => {
+    setMode(modes['Login']);
+    
+  }
+
+  const setModeCadastro = () => {
+    setMode(modes['Cadastro']);
+  }
+
+  const telaLogin = () => {
+    return <Login onLogin={setModeLista} onCadastro={setModeCadastro}></Login>
+  }
+
+  const telaCadastro = () => {
+    return <Cadastro onCreate={setModeLista}></Cadastro>
+  }
+
+  pages.Login = telaLogin();
+  pages.Cadastro = telaCadastro();
+
+  const renderTelas = () => {
+    if (mode !== modes['Login'] && mode !== modes['Cadastro']){
+      return (
+        <>
+            <div class="mdi mdi-home" onClick={setModeDados}></div>
+            <div class="mdi mdi-clock" onClick={setModeHist}></div>
+            <div class="mdi mdi-format-list-bulleted-square" onClick={setModeLista}></div>
+            <div class="mdi mdi-logout" onClick={setModeSair}></div>
+        </>
+      ) 
+    }
+  }
+
   return (
     <>
       <Header/>
       <div class="actions">
-          <div class="mdi mdi-home" onClick={onClickDados}></div>
-          <div class="mdi mdi-clock" onClick={onClickHist}></div>
-          <div class="mdi mdi-mdi-format-list-bulleted-square" onClick={onClickLista}>☢︎</div>
+          {renderTelas()}
       </div>
-      {mode}
+      {pages[mode]}
       <div class="background-container">
         <div class="background-image"></div>
       </div>

@@ -19,6 +19,9 @@ export default function Dados() {
                     <input type="password" placeholder='Senha'/>
                     <input type="password" placeholder='Nova senha'/>
                     <Button label="Atualizar"></Button>
+                    {/* <div class="sair">
+                        <Button label="Sair"></Button>
+                    </div> */}
                 </div>
             </div>
         </>

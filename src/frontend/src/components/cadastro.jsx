@@ -1,7 +1,11 @@
 import './login.css'
 import Button from './button.jsx'
 
-export default function Login() {
+export default function Login(props) {
+    const handleCriar = () => {
+        props.onCreate()
+    }
+
     return (
         <>
             <div class="login">
@@ -10,7 +14,7 @@ export default function Login() {
                 <input type="text" placeholder='Senha'/>
                 <input type="text" placeholder='Confirme a senha'/>
 
-                <Button label="Criar e acessar"></Button>
+                <button onClick={handleCriar}>Criar e acessar</button>
             </div>
         </>
     );

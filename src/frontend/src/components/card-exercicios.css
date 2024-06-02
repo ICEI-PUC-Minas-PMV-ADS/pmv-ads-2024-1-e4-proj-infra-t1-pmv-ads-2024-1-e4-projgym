@@ -1,6 +1,5 @@
 .card{
     margin-top: 10px;
-    /* border: 1px red solid; */
     border-radius: 7px;
     display: flex;
     flex-wrap: wrap;
@@ -12,7 +11,6 @@
 
 .card-aberto{
     margin-top: 10px;
-    /* border: 1px red solid; */
     border-radius: 7px;
     display: flex;
     flex-wrap: wrap;
@@ -23,14 +21,12 @@
 }
 
 .thumb {
-    /* border: 1px pink solid; */
     border-radius: 4px;
     width: 63px;
     margin: 7px;
 }
 
 .info{
-    /* border: 1px blue solid; */
     margin: 7px 10px;
     display: flex;
     flex-direction: column;
