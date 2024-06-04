@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import { userlogin } from '../services/authServices'
 import { useNavigation } from "@react-navigation/native";
 import { VStack, Image, Text, Center, Heading, ScrollView } from "native-base";
 
@@ -11,7 +13,8 @@ import { Button } from "@components/Button";
 
 export function SignIn() {
   const navigation = useNavigation<AuthNavigatorRoutesProps>();
-
+  const [email, setemail] = useState<string>()
+  const [password, setpassword] = useState<string>()
   function handleNewAccount() {
     navigation.navigate("signUp");
   }
@@ -44,11 +47,12 @@ export function SignIn() {
           <Input
             placeholder="E-mail"
             keyboardType="email-address"
-            autoCapitalize="none"
+            autoCapitalize="none" value={email} onChangeText={email => setemail(email)}
           />
-          <Input placeholder="Senha" secureTextEntry />
+          <Input placeholder="Senha" secureTextEntry value={password} onChangeText={password => setpassword(password)} />
 
-          <Button title="Acessar" />
+          <Button title="Acessar" onPress={() => userlogin(email, password)} />
+
         </Center>
 
         <Center mt={24}>

@@ -1,3 +1,4 @@
+import { userRegister } from '../services/authServices'
 import { useNavigation } from "@react-navigation/native";
 import {
   VStack,
@@ -59,7 +60,11 @@ export function SignUp() {
     password,
     password_confirm,
   }: FormDataProps) {
-    console.log({ name, email, password, password_confirm });
+    userRegister(name, email, password, password_confirm).then(res => {
+      navigation.navigate("signIn")
+    }).catch(err => {
+      console.log(err.response.data);
+    })
   }
 
   return (
