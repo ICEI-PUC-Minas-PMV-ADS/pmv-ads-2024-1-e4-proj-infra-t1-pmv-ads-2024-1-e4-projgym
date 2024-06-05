@@ -10,13 +10,18 @@ import BackgroundImg from "@assets/background.png";
 
 import { Input } from "@components/Input";
 import { Button } from "@components/Button";
+//import { Exercise } from './Exercise';
 
 export function SignIn() {
-  const navigation = useNavigation<AuthNavigatorRoutesProps>();
-  const [email, setemail] = useState<string>()
-  const [password, setpassword] = useState<string>()
+  const navigation = useNavigation();
+  const [email, setemail] = useState()
+  const [password, setpassword] = useState()
   function handleNewAccount() {
     navigation.navigate("signUp");
+  }
+
+  async function handleLogin(email, password) {
+    if (await userlogin(email, password)) navigation.replace('homeapp')
   }
 
   return (
@@ -51,7 +56,7 @@ export function SignIn() {
           />
           <Input placeholder="Senha" secureTextEntry value={password} onChangeText={password => setpassword(password)} />
 
-          <Button title="Acessar" onPress={() => userlogin(email, password)} />
+          <Button title="Acessar" onPress={() => handleLogin(email, password)} />
 
         </Center>
 
