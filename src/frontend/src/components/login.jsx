@@ -1,21 +1,23 @@
 import './login.css'
 import Button from './button.jsx'
+import { userlogin } from '../services/userServices.js';
 
 export default function Login(props) {
 
-    const handleLogin = () => {
-        props.onLogin();
-    }
 
     const handleCadastro = () => {
         props.onCadastro();
     }
 
+    async function handleLogin(email, password) {
+        if (await userlogin(email, password)) ('homeapp')
+    }
+
     return (
         <>
             <div class="login">
-                <input type="text" placeholder='E-mail'/>
-                <input type="password" placeholder='Senha'/>
+                <input type="text" placeholder='E-mail' />
+                <input type="password" placeholder='Senha' />
 
                 <button onClick={handleLogin}>Acessar</button>
                 <br />

@@ -13,8 +13,8 @@ import { getAllExercicio } from '../api/requests.js'
 import './App.css'
 
 function App() {
-  const modes = {Lista: 'Lista', Dados: 'Dados', Hist: 'Hist', Login: 'Login', Cadastro: 'Cadastro' }
-  
+  const modes = { Lista: 'Lista', Dados: 'Dados', Hist: 'Hist', Login: 'Login', Cadastro: 'Cadastro' }
+
   const pages = {
     Lista: <Lista></Lista>,
     Dados: <Dados></Dados>,
@@ -40,7 +40,7 @@ function App() {
 
   const setModeSair = () => {
     setMode(modes['Login']);
-    
+
   }
 
   const setModeCadastro = () => {
@@ -59,23 +59,23 @@ function App() {
   pages.Cadastro = telaCadastro();
 
   const renderTelas = () => {
-    if (mode !== modes['Login'] && mode !== modes['Cadastro']){
+    if (mode !== modes['Login'] && mode !== modes['Cadastro']) {
       return (
         <>
-            <div class="mdi mdi-home" onClick={setModeDados}></div>
-            <div class="mdi mdi-clock" onClick={setModeHist}></div>
-            <div class="mdi mdi-format-list-bulleted-square" onClick={setModeLista}></div>
-            <div class="mdi mdi-logout" onClick={setModeSair}></div>
+          <div class="mdi mdi-home" onClick={setModeDados}></div>
+          <div class="mdi mdi-clock" onClick={setModeHist}></div>
+          <div class="mdi mdi-format-list-bulleted-square" onClick={setModeLista}></div>
+          <div class="mdi mdi-logout" onClick={setModeSair}></div>
         </>
-      ) 
+      )
     }
   }
 
   return (
     <>
-      <Header/>
+      <Header />
       <div class="actions">
-          {renderTelas()}
+        {renderTelas()}
       </div>
       {pages[mode]}
       <div class="background-container">
