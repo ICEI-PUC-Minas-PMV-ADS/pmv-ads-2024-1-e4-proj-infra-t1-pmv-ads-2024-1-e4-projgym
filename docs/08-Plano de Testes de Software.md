@@ -41,6 +41,6 @@
 | Requisitos associados  | RF-06|
 | objetivos | A aplicação deve atualizar os dados cadastrais de acordo com a vontade do usuário |
 |  Passos    | -->iniciar a aplicação <br> -->  Fornecer informações de acesso <br> -->  Acessar a pagina principal --> <br> --> acessar a aba perfil --> atualizar os dados |
-|  Exito     | A aplicação deve atualizar os dados no banco e mostrar as alterações ao usuário
+|  Exito     | A aplicação deve atualizar os dados no banco e mostrar as alterações ao usuário |
 
 
