@@ -6,7 +6,7 @@ Estudos comprovam que a atividade física regular atua como um escudo protetor p
 
 Mas mesmo cientes dos inúmeros benfícios da prática regular da atividade física, o sedentarismo ainda se apresenta como um dos cinco maiores fatores de risco para mortes precoces no mundo todo (SOUSA et al, 2023). E esse número ainda pode aumentar visto que, recentemente a OMS (Organização Mundial de Saúde), instituição intergovernamental e parte integrante da ONU, criada em 1948 com o objetivo de promover ações de saúde em âmbito internacional, atualizou suas recomendações acerca da atividade física regular. Atualmente, para obter benefícios substanciais à saúde, ela recomenda que as pessoas adultas (entre 18 e 64 anos) devam praticar entre 150 a 300 minutos de atividade física aeróbica por semana em intensidade moderada e de 75 a 150 minutos por semana em intensidade vigorosa e recomenda também atividades de fortalecimento muscular 2 ou mais dias por semana que envolvam todos os principais grupos musculares (WHO, 2020).   
 
-Neste contexto atual, vamos apresentar nossa aplicação, em duas interfaces, Web e Mobile, que tem como objetivo ajudar o maior número de pessoas possíveis em deixar o sedentarismo e conseguir alcançar uma prática regular de exercícios físicos.
+Neste contexto atual, vamos apresentar nossa aplicação, em duas interfaces, Web e Mobile, que tem como objetivo ajudar o maior número de pessoas possíveis a deixar o sedentarismo e conseguir alcançar uma prática regular de exercícios físicos.
 
 ## Problema
 
