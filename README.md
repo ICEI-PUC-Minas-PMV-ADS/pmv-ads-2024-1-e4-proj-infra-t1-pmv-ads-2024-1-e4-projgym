@@ -6,7 +6,7 @@
 
 `2024.1`
 
-O projeto tem por objetivo o desenvolvimento de um aplicativo que ofereça duas interfaces, Web e Mobile, através das quais o usuário, seja ele personal ou aluno, terá acesso a uma ampla variedade de exercícios físicos, divididos pro grupos muscular e com uma demonstração de como sua execução deve ser realizada. 
+O projeto tem por objetivo o desenvolvimento de um aplicativo que ofereça duas interfaces, Web e Mobile, através das quais o usuário, seja ele personal ou aluno, terá acesso a uma ampla variedade de exercícios físicos, divididos pro grupos musculares e com uma demonstração de como sua execução deve ser realizada. 
 
 ## Integrantes
 
