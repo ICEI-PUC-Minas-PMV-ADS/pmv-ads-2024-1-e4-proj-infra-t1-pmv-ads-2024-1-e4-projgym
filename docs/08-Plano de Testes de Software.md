@@ -38,6 +38,7 @@
 
 
 | Caso de teste  | CT-05 |
+| ------------- | ------------- |
 | Requisitos associados  | RF-06|
 | objetivos | A aplicação deve atualizar os dados cadastrais de acordo com a vontade do usuário |
 |  Passos    | -->iniciar a aplicação <br> -->  Fornecer informações de acesso <br> -->  Acessar a pagina principal --> <br> --> acessar a aba perfil --> atualizar os dados |
