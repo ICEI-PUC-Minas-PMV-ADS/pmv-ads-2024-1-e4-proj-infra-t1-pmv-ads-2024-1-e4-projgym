@@ -1,12 +1,12 @@
 .card{
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 7px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 70px;
+    height: 130;
     background-color: rgb(49, 49, 49);
-    width: 350px;
+    width: 130;
 }
 
 .card-aberto{
@@ -15,15 +15,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 130px;
-    background-color: rgb(49, 49, 49);
-    width: 350px;
+    height: auto;
+    background-color: rgb(194, 144, 144);
+    width: auto;
 }
 
 .thumb {
     border-radius: 4px;
     width: 63px;
-    margin: 7px;
+    margin: 1px;
 }
 
 .info{
