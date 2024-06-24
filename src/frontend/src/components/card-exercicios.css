@@ -22,7 +22,7 @@
 
 .thumb {
     border-radius: 4px;
-    width: 63px;
+    width: auto;
     margin: 1px;
 }
 
@@ -36,11 +36,12 @@
 }
 
 .info .title{
-    font-weight: bold;
+  font-size: 18px;
 }
 
 .info .repetitions{
     font-size: small;
+    margin-left: 50px;
 
     margin-top: 13px;
 }
@@ -51,12 +52,12 @@
     top: 23px;
     /* font-size: 20px; */
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 
 .check:hover {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .mini-button {

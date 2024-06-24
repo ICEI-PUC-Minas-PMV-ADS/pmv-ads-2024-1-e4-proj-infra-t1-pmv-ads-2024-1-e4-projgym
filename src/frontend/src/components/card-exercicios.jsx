@@ -38,10 +38,10 @@ const handleDelete = async (_id) => {
           <div className="thumb">
             <img
               src={
-                "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3lzMzAzYmlxa3FkcWJ5enl2ZGJka2UxbjhsYWhjOG52ZGo5YWplNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vjQ2qPy5loXjl7m4j7/giphy.webp"
+                exercise.demo
               }
               alt={exercise.title}
-              style={{ width: "90px", height: "150px", margin: "0" }}
+              style={{ width: "150px", height: "150px", margin: "0" }}
             />
           </div>
           <div className="info">
