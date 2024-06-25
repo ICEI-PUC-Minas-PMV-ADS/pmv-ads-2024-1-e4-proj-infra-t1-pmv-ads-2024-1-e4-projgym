@@ -1,0 +1,26 @@
+.exercise-pop{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+    height: 100%;
+}
+.close-button{
+
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+ 
+/* .content-pop {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  } */ 
